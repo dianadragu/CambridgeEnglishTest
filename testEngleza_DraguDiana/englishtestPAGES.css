@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amethysta&family=Trirong:wght@600&display=swap');
+
+body{
+    background-image: url('https://images.wallpapersden.com/image/download/abstract-swirly-wall_a2xna2iUmZqaraWkpJRnamtlrWZpaWU.jpg');
+    background-size: cover; 
+}
+
+.container{
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;          
+    border-radius: 15px;
+    height: auto 0;
+    width: 50%;
+    margin-left: 25%;
+    top: 30px;
+    border-radius: 15px;
+}
+
+.container p{
+    margin-left: 30px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    font-family: 'Amethysta';
+    padding: 0px;
+    font-size: 15px;
+}
+
+.container h4{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Abril Fatface' cursive;
+}
+
+.container span{
+    border-radius: 10px;
+}
+
+.container .header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: -webkit-linear-gradient(45deg, rgb(230, 38, 70), rgb(9, 9, 228));
+    border-radius: 15px 15px 0 0;
+    color: white;
+    font-size: 20px;
+}
+
+.header h3{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+#results1, #results2, #results3, #results4, #results5 {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.question{
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+}
+
+.points{
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+
+/*culorile pt intrebari*/
+.box1{
+    background-color:rgba(255, 208, 0, 0.3);
+    padding: 10px;
+}
+
+.box2{
+    background-color:rgba(255, 0, 55, 0.2);
+    padding: 10px;
+}
+
+.box3{
+    background-color:rgba(106, 93, 226, 0.2);
+    padding: 10px;
+}
+
+.box4{
+    background-color:rgba(122, 8, 17, 0.2);
+    padding: 10px;
+}
+
+.box5{
+    background-color:rgba(238, 123, 16, 0.2);
+    padding: 10px;
+}
+
+button{
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 2px solid transparent;
+   }
+	
+button:hover {
+    background-position: right center; 
+}
+
+button{
+    background-image: linear-gradient(to right, rgb(9, 9, 228) 0%, rgb(230, 38, 70) 51%, rgb(9, 9, 228) 100%);
+}
+
+.previous{
+    position: absolute;
+    left: 20px;
+}
+.answ{
+    margin-left: 40%;
+}
+
+.next{
+    position: absolute;
+    right: 20px;
+}
+
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+audio{
+    width: 100%;
+}

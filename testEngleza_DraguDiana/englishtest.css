@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bentham&family=Katibeh&family=Lobster+Two:wght@700&display=swap');
+
+/*MAIN*/
+
+.q-container{
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 0.8);
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;          
+    height: 100%;
+    width: 40%;
+    margin-left: 30%;
+    top: 60px;
+    border-radius: 15px;
+                 
+}
+
+.q-container1{
+    z-index: 1;
+    background-color: rgb(255, 255, 255, 0.8);
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;          
+    height: 100%;
+    width: 25%;
+    margin-left: 35%;
+    top: 170px;
+    padding: 10px;
+    border-radius: 15px;
+                 
+}
+
+video{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.q-container h1{
+    text-align: center;
+    font-family: 'Lobster Two';
+    letter-spacing: 1px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: transparent;
+    background: -webkit-linear-gradient(45deg, red, blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.q-container p{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-family: 'Bentham';
+    word-wrap: break-word;
+    font-size: 25px;
+}
+
+.q-container1 p{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-family: 'Bentham';
+    word-wrap: break-word;
+    text-align: center;
+    font-size: 25px;
+}
+
+.q-container #lastp{
+    text-align: center;
+}
+
+#btt{
+    padding: 25px;
+    text-align: center;
+   
+}
+
+button{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 8px solid transparent;
+    border-image: -webkit-linear-gradient(45deg, red, blue);
+    border-image-slice: 1;
+    box-shadow: 0 3px 9px black;
+}
+
+button:hover{
+    border:none;
+    color:rgb(255, 255, 255);
+    background-image: -webkit-linear-gradient(45deg, red, blue);
+}
+
+
+
