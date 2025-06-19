@@ -26,4 +26,4 @@ I am only responsible for the technical implementation of the website.
 
 ## Credits
 
-All test questions and exercises are sourced from Cambridge Assessment English. This project is for educational purposes only. I am not affiliated with Cambridge; I have only implemented the
+All test questions and exercises are sourced from Cambridge Assessment English. This project is for educational purposes only. I am not affiliated with Cambridge.
