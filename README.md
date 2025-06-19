@@ -1,6 +1,7 @@
 # Advanced English Level Test
 
-This is a web application for testing English language proficiency, implemented as a static HTML/CSS/JS project. The test questions and exercises are taken from Cambridge Assessment English materials. I am only responsible for the technical implementation of the website.
+This is a web application for testing English language proficiency, implemented as a static HTML/CSS/JS project. The test questions and exercises are taken from Cambridge Assessment English materials. 
+I am only responsible for the technical implementation of the website.
 
 ## Project Structure
 
